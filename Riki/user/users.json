@@ -3,16 +3,30 @@
     "active": true, 
     "authentication_method": "hash", 
     "authenticated": false, 
-    "hash": "8a76f14919fba994c502a5580e0553ed9b3282146a037b42aa87b9037821abe91c6bb502781ab8deff106a748e95a15ea4e24ae4fac66996d8670196455e4502b7b47ec8e29a5001aa6bf06a146171db47a63114bf9e8e9a18327607b3e7f896b9ac335b15a052e16c4f876225605f90221eb6676018440f3628fe2c55bc6060", 
-    "roles": []
+    "roles": [], 
+    "hash": "8a76f14919fba994c502a5580e0553ed9b3282146a037b42aa87b9037821abe91c6bb502781ab8deff106a748e95a15ea4e24ae4fac66996d8670196455e4502b7b47ec8e29a5001aa6bf06a146171db47a63114bf9e8e9a18327607b3e7f896b9ac335b15a052e16c4f876225605f90221eb6676018440f3628fe2c55bc6060"
   }, 
   "testing": {
     "active": true, 
     "authentication_method": "cleartext", 
-    "password": "12345", 
+    "password": "123", 
     "authenticated": true, 
     "roles": []
-  }, 
+  },
+  "roleDeleteDummy01": {
+    "active": true,
+    "authentication_method": "cleartext",
+    "password": "123",
+    "authenticated": true,
+    "roles": ["test"]
+  },
+  "roleDeleteDummy02": {
+    "active": true,
+    "authentication_method": "cleartext",
+    "password": "123",
+    "authenticated": true,
+    "roles": ["test"]
+  },
   "librarytest5": {
     "active": true, 
     "authentication_method": "cleartext", 
